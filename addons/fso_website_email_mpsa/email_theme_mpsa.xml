@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<data>
+    
+    <!-- THEME 'mpsa' ASSETS -->
+    <!-- ATTENTION: At least one local css <link> or inline <style> tag  (even if just empty) MUST exist in an assets template -->
+    <template id="email_theme_mpsa_assets">
+
+        <link href='/fso_website_email_mpsa/static/src/css/email_theme_mpsa.css' rel='stylesheet' type='text/css' t-ignore="true"/>
+        <link href='/fso_website_email_mpsa/static/src/css/email_theme_mpsa_snippets.css' rel='stylesheet' type='text/css' t-ignore="true"/>
+        <link href='/fso_website_email_mpsa/static/src/css/email_theme_mpsa_snippets_buttons.css' rel='stylesheet' type='text/css' t-ignore="true"/>
+
+        <!-- NEW: Bullet Proof Buttons -->
+        <link href='/fso_website_email_mpsa/static/src/css/email_theme_mpsa_snippets_bpbuttons.css' rel='stylesheet' type='text/css' t-ignore="true"/>
+        
+        <link href='/fso_website_email_mpsa/static/src/css/email_theme_mpsa_responsive.css' rel='stylesheet' type='text/css' t-ignore="true"/>
+        <link href='/fso_website_email_mpsa/static/src/css/email_theme_mpsa_snippets_buttons_responsive.css' rel='stylesheet' type='text/css' t-ignore="true"/>
+    </template>
+    
+    <!-- THEME 'mpsa' ASSETS EDITMODE -->
+    <template id="email_theme_mpsa_assets_editmode">
+        
+        <!-- Snippets template URL -->
+        <script type="text/javascript">
+            //<![CDATA[
+                (function () {
+                    'use strict';
+                    var website = openerp.website;
+                    website.if_dom_contains('#email_designer', function () {
+                        website.snippet.BuildingBlock.include({
+                            _get_snippet_url: function () {
+                                return '/fso/email/snippets?snippets_template=fso_website_email_mpsa.email_theme_mpsa_snippets';
+                            }
+                        });
+                    });
+                })();
+            //]]>
+        </script>
+
+        <!-- Override CKEditor Settings -->
+        <script src='/fso_website_email_mpsa/static/src/js/email_theme_mpsa_ckeditor.js' type='text/javascript' t-ignore="true"/>
+        
+        <!-- CSS for edit mode only -->
+        <link href='/fso_website_email_mpsa/static/src/css/mpsa_editmode_only.css' rel='stylesheet' type='text/css' t-ignore="true"/>
+    </template>
+
+    <!-- mpsa HEADER CONTENT -->
+    <template id="email_theme_mpsa_header" name="mpsa Header">
+        <div id="mpsa_header"></div>
+    </template>
+    
+    
+    <!-- mpsa Footer CONTENT -->
+    <template id="email_theme_mpsa_footer" name="mpsa Footer">
+        <div id="mpsa_footer"></div>
+    </template>
+    
+
+    <!-- mpsa THEME -->
+    <template id="email_theme_mpsa"
+              name="mpsa Theme">&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Strict//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd&quot;&gt;
+        <html t-att-lang="lang and lang.replace('_', '-')"
+              t-att-data-website-id="website and website.id or None"
+              t-att-data-editable="'1' if editable else None"
+              t-att-data-translatable="'1' if translatable else None"
+              t-att-data-view-xmlid="xmlid if editable else None"
+              t-att-data-main-object="repr(main_object) if editable else None"
+              t-att-data-oe-company-name="res_company.name if editable else None"
+              class="ckediting_disabled">
+
+            <!-- TEMPLATE SETTINGS -->
+            <!-- ================= -->
+            <t t-set="load_theme_framework" t-value="True"/>
+            <!-- ================= -->
+
+            <head>
+                <!-- COMMON CSS-ASSETS AND <head> TAGS -->
+<!--                     @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+                     @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');-->
+<!--                <link data-premailer="ignore" href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700;900&amp;display=swap" rel="stylesheet" type="text/css" t-ignore="true"/>
+                <link data-premailer="ignore" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&amp;display=swap" rel="stylesheet" type="text/css" t-ignore="true"/>
+                <link data-premailer="ignore" href='/fso_website_email_mpsa/static/src/css/custom_fonts_styles.css' rel='stylesheet' type='text/css' t-ignore="true"/>-->
+                <meta name="format-detection" content="telephone=no"></meta>
+
+                 <style type="text/css" data-premailer="ignore">
+                     <![CDATA[
+                        @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&amp;display=swap');
+                        <link rel="preconnect" href="https://fonts.gstatic.com"/>
+                        <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&amp;display=swap" rel="stylesheet"/>
+                    ]]>
+               </style>
+                <t t-set="olconditionals">
+                <![CDATA[
+                    <!--[if mso 14]>
+                        <style type="text/css">
+                            h1, h2, h3, h4, h5, h6,
+                            .headerCell, .footerCell,
+                            .textContent, .textContentLast,
+                            .buttonContent,
+                            .emailCalendarDay, .emailCalendarMonth {
+                                font-family: Arial, sans-serif !important;
+                                mso-line-height-rule: exactly;
+                            }
+                        </style>
+                    <![endif]-->
+
+                    <!--[if mso 16]>
+                        <style type="text/css">
+                            h1, h2, h3, h4, h5, h6,
+                            .headerCell, .footerCell,
+                            .textContent, .textContentLast,
+                            .buttonContent,
+                            .emailCalendarDay, .emailCalendarMonth {
+                                font-family: Arial, sans-serif !important;
+                                mso-line-height-rule: exactly;
+                            }
+                        </style>
+                    <![endif]-->
+
+                    <!--[if mso]>
+                        <style type="text/css">
+                            /* Stop Outlook resizing small text. */
+                            * {
+                                 -ms-text-size-adjust: 100%;
+                            }
+                           /* Remove space around the email design. */
+                           html,
+                           body {
+                               margin: 0 auto !important;
+                               padding: 0 !important;
+                               height: 100% !important;
+                               width: 100% !important;
+                           }
+                            /* Stop Outlook from adding extra spacing to tables. */
+                            table,
+                            td {
+                                mso-table-lspace:0pt;
+                                mso-table-rspace:0pt;
+                                border-collapse:collapse;
+                                border-spacing:0;
+                            }
+                            /* Use a better rendering method when resizing images in Outlook IE. */
+                            a img {
+                                border:0 none;
+                            }
+                            img {
+                                 -ms-interpolation-mode:bicubic;
+                            }
+                            /* Prevent Windows 10 Mail from underlining links. Styles for underlined links should be inline. */
+                            a {
+                            text-decoration: none;
+                            }
+                            * {
+                                font-family: Arial, sans-serif !important;
+                            }
+                            body,
+                            p,
+                            a,
+                            #emailBody ul li,
+                            #emailBody ol li {
+                               font-family: Arial, sans-serif !important;
+                            }
+                        </style>
+                    <![endif]-->
+                 ]]>
+                </t>
+                <t t-raw="olconditionals">
+                </t>
+
+<!--            <link data-premailer="ignore" href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700;900&amp;display=swap" rel="stylesheet" type="text/css" t-ignore="true"/>
+                <link data-premailer="ignore" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&amp;display=swap" rel="stylesheet" type="text/css" t-ignore="true"/>
+                <link data-premailer="ignore" href='/fso_website_email_mpsa/static/src/css/custom_fonts_styles.css' rel='stylesheet' type='text/css' t-ignore="true"/>-->
+                <t t-call="fso_website_email.theme_head_common"/>
+                
+                <!-- THEME mpsa CSS-ASSETS IN EDIT MODE ONLY -->
+                <t t-if="email_editor_mode">
+                    <t t-call-assets="fso_website_email_mpsa.email_theme_mpsa_assets_editmode" t-js="false"/>
+                </t>
+                
+                <!-- THEME mpsa CSS-ASSETS -->
+                <t t-call-assets="fso_website_email_mpsa.email_theme_mpsa_assets" t-js="false"/>
+                
+                <meta name="viewport" content="width=device-width"/>
+            </head>
+
+
+            <body class="ckediting_disabled" contenteditable="false">
+                <!-- WRAP COMMON ASSETS AND BODY TAGS AROUND THEME 'mpsa' -->
+                <t t-call="fso_website_email.theme_body_common">
+
+                    <!-- ============ -->
+                    <!-- THEME 'mpsa' -->
+                    <!-- ============ -->
+                    <center>
+                        <table id="bodyTable" class="ckediting_disabled" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%">
+
+                            <!-- HEADER -->
+                            <!--<tr>-->
+                                <!--<td id='open_in_browser' class="headerCell ckediting_disabled" align="center">-->
+                                    <!--Wenn diese Nachricht nicht richtig angezeigt wird, verwenden Sie bitte die-->
+                                    <!--<![CDATA[-->
+                                    <!--<a id="view-email-in-browser"-->
+                                       <!--href="%open_browser%" target="_blank">-->
+                                         <!--Online-Version-->
+                                    <!--</a>-->
+                                    <!--]]>-->
+                                <!--</td>-->
+                            <!--</tr>-->
+                            
+                            <!-- mpsa HEADER -->
+                            <tr>
+                                <td id='mpsa_header' class="headerCell ckediting_disabled" align="center">
+                                    
+                                    <table id="mpsa_header_body" class="ckediting_disabled" border="0" cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td class="ckediting_disabled" align="center" valign="top">
+
+                                                <!-- CONTENT ('html_body' field of email.template) -->
+                                                <t t-call="fso_website_email_mpsa.email_theme_mpsa_header"/>
+
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    
+                                </td>
+                            </tr>
+
+                            <!-- MAIN -->
+                            <tr>
+                                <!-- bodyCell width: 100% padding: 0 left and right  -->
+                                <td id="bodyCell" class="ckediting_disabled" align="center" valign="top">
+                                    
+                                    <!-- emailBody width: 600 px padding: 0  margin: 0 -->
+                                    <table id="emailBody" class="ckediting_disabled" border="0" cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td class="ckediting_disabled" align="center" valign="top">
+
+                                                <!-- CONTENT ('html_body' field of email.template) -->
+                                                <t t-call="fso_website_email.content"/>
+
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    
+                                </td>
+                            </tr>
+
+
+
+                            <!-- mpsa Footer CONTENT -->
+                            <template id="email_theme_mpsa_footer" name="mpsa Footer">
+                                <div class="bird_footer_info dadi_sb_bg_full ckediting_disabled">
+                                    <table class="centeringTable" cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <table class="flexibleContainer" border="0" cellpadding="0" cellspacing="0">
+                                                    <tr>
+                                                        <td class="flexibleContainerCell" align="center" valign="top">
+                                                            <table class="nestedContainer" border="0" cellpadding="0" cellspacing="0">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td class="nestedContainerCell" align="center" valign="top">
+                                                                            <table class="contentTable" border="0" cellpadding="0" cellspacing="0">
+                                                                                <tr>
+                                                                                    <td class="textContent ckediting_disabled" align="center" valign="top" contenteditable="false">
+
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+
+                            </template>
+
+                            <!-- FOOTER -->
+                            <tr>
+                                <td id='mpsa_footer' align="center" class="footerCell ckediting_disabled">
+                                    
+                                    <table id="mpsa_footer_body" class="ckediting_disabled" border="0" cellpadding="0" cellspacing="0">
+                                        <tr>
+                                            <td class="ckediting_disabled" align="center" valign="top">
+
+                                                <t t-call="fso_website_email_mpsa.email_theme_mpsa_footer"/>
+
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    
+                                </td>
+                            </tr>
+
+                        </table>
+                    </center>
+
+                </t>
+                
+                <!-- THEME mpsa JAVA SCRIPT ASSETS IN EDIT MODE ONLY -->
+                <t t-if="email_editor_mode">
+                    <t t-call-assets="fso_website_email_mpsa.email_theme_mpsa_assets_editmode" t-css="false"/>
+                </t>
+                
+                <!-- THEME mpsa JAVA SCRIPT ASSETS -->
+                <t t-call-assets="fso_website_email_mpsa.email_theme_mpsa_assets" t-css="false"/>
+            </body>
+
+        </html>
+    </template>
+
+    <!-- Enable the boolean field 'fso_email_template' for this theme to show it at the 'fso/email/select' page -->
+    <record id="fso_website_email_mpsa.email_theme_mpsa" model="ir.ui.view">
+        <field name="fso_email_template" eval="True"/>
+    </record>
+
+</data>
+</openerp>
