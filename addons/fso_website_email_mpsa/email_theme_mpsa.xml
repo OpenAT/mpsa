@@ -84,9 +84,11 @@
 
                  <style type="text/css" data-premailer="ignore">
                      <![CDATA[
-                        @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&amp;display=swap');
+                        @import url('https://fonts.googleapis.com/css2?family=Mukta+Mahee:wght@400;500;700&amp;display=swap');
                         <link rel="preconnect" href="https://fonts.gstatic.com"/>
-                        <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&amp;display=swap" rel="stylesheet"/>
+                        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+                        <link rel="preconnect" href="https://fonts.gstatic.com"/>
+                        <link href="https://fonts.googleapis.com/css2?family=Mukta+Mahee:wght@400;500;700&amp;display=swap" rel="stylesheet" type="text/css" t-ignore="true"/>
                     ]]>
                </style>
                 <t t-set="olconditionals">
@@ -160,6 +162,7 @@
                             #emailBody ol li {
                                font-family: Arial, sans-serif !important;
                             }
+                            * {-webkit-text-size-adjust: none}
                         </style>
                     <![endif]-->
                  ]]>

@@ -517,6 +517,10 @@
     padding-bottom: 0px;
     padding: 0px 0px;
 }*/
+#mpsa_twocol_olspecial .snippet_block_text_twocol .flexibleContainerCell {
+    padding-left: 0px;
+    padding-right: 0px;
+}
 .snippet_block_text_twocol .flexibleContainerLeft .textContent > h1,
 .snippet_block_text_twocol .flexibleContainerLeft .textContent > h2,
 .snippet_block_text_twocol .flexibleContainerLeft .textContent > h3,
