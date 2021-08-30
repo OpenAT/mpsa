@@ -37,6 +37,18 @@
     .snippet_block_text_threecol img.flexibleImage {
         margin-bottom: 10px;
     }
+
+    /* positioning center for Mobile Only */
+    #combinedheadersnippet div.mobilecenterpos {
+        width: 100%;
+        text-align: center;
+    }
+    #combinedheadersnippet img.headerlogo.flexibleImage {
+        width: 160px !important;
+        margin: auto;
+    }
+    /* positioning center for Mobile Only */
+
     #combinedheadersnippet table.flexibleContainerRight,
     #combinedheadersnippet table.flexibleContainerLeft,
     #combinedheadersnippet table.flexibleContainer33 {
