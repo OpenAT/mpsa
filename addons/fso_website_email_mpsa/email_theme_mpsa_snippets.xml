@@ -25,7 +25,7 @@
                 <!-- Icon and name -->
                 <div class="oe_snippet_thumbnail">
                     <img class="oe_snippet_thumbnail_img"
-                         src="/fso_website_email_mpsa/static/src/icons/mpsa_bin.png"/>
+                         src="/fso_website_email_mpsa/static/src/img/snippet-general.png"/>
                     <span class="oe_snippet_thumbnail_title">Container</span>
                 </div>
                 <!-- SNIPPET BLOCK -->

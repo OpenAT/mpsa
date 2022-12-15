@@ -25,7 +25,7 @@
                     <!-- Icon and name -->
                     <div class="oe_snippet_thumbnail">
                         <img class="oe_snippet_thumbnail_img"
-                             src="/fso_website_email_mpsa/static/src/icons/mpsa_header_icon.png"/>
+                             src="/fso_website_email_mpsa/static/src/img/snippet-header.png"/>
                         <span class="oe_snippet_thumbnail_title">Header Snippet</span>
                     </div>
                     <div id="combinedheadersnippetWebVersion" class="oe_snippet_body ckediting_disabled mpsa_bin">
@@ -168,7 +168,7 @@
                     <!-- Icon and name -->
                     <div class="oe_snippet_thumbnail">
                         <img class="oe_snippet_thumbnail_img"
-                             src="/fso_website_email_mpsa/static/src/icons/mpsa_spacertop_icon.png"/>
+                             src="/fso_website_email_mpsa/static/src/img/snippet-general.png"/>
                         <span class="oe_snippet_thumbnail_title">spacer Top</span>
                     </div>
                     <div id="mpsa_spacertop" class="oe_snippet_body ckediting_disabled mpsa_bin">
@@ -218,7 +218,7 @@
                     <!-- Icon and name -->
                     <div class="oe_snippet_thumbnail">
                         <img class="oe_snippet_thumbnail_img"
-                             src="/fso_website_email_mpsa/static/src/icons/mpsa_spacerbottom_icon.png"/>
+                             src="/fso_website_email_mpsa/static/src/img/snippet-general.png"/>
                         <span class="oe_snippet_thumbnail_title">spacer bottom</span>
                     </div>
                     <div id="mpsa_spacerbottom" class="oe_snippet_body ckediting_disabled mpsa_bin">
@@ -271,7 +271,7 @@
                     <!-- Icon and name -->
                     <div class="oe_snippet_thumbnail">
                         <img class="oe_snippet_thumbnail_img"
-                             src="/fso_website_email_mpsa/static/src/icons/mpsa_footer_icon.png"/>
+                             src="/fso_website_email_mpsa/static/src/img/snippet-footer.png"/>
                         <span class="oe_snippet_thumbnail_title">Footer Snippet</span>
                     </div>
                     <div id="combinedsnippetfooter" class="oe_snippet_body ckediting_disabled mpsa_bin">
@@ -413,7 +413,7 @@
                 <!-- Icon and name -->
                 <div class="oe_snippet_thumbnail">
                     <img class="oe_snippet_thumbnail_img"
-                         src="/fso_website_email_mpsa/static/src/icons/mpsa_twocol_snippet_icon.png"/>
+                         src="/fso_website_email_mpsa/static/src/img/snippet-general.png"/>
                     <span class="oe_snippet_thumbnail_title">mpsa twocol special</span>
                 </div>
                 <div id="mpsa_twocol_olspecial" class="oe_snippet_body ckediting_disabled mpsa_bin">
