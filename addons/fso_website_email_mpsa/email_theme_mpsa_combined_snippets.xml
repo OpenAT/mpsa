@@ -116,20 +116,21 @@
                                                                                                    border="0"
                                                                                                    cellpadding="0"
                                                                                                    cellspacing="0"
-                                                                                                   class="flexibleContainerRight">
+                                                                                                   class="flexibleContainerRight"
+                                                                                                   style="width: 100%; max-width: 400px;">
                                                                                                 <tbody>
                                                                                                     <tr>
                                                                                                         <td class="textContent ckediting_enabled"
                                                                                                             valign="top"
-                                                                                                            style="padding-top: 35px; padding-left: 30px;">
-                                                                                                            <h3 style="font-size: 24px;">
+                                                                                                            style="padding-top: 70px; padding-left: 0px;">
+                                                                                                            <h3 style="font-size: 20px; color: #00538d;">
                                                                                                                 Gesellschaft
                                                                                                                 für
                                                                                                                 <span style="color: #e19f1f;">M</span>uko<span style="color: #e19f1f;">P</span>oly<span style="color: #e19f1f;">S</span>accharidosen
                                                                                                             </h3>
 
                                                                                                             <p>
-                                                                                                                <span style="color: black; font-size: 12px; background-color: transparent; text-align: center;">
+                                                                                                                <span style="color: #00538d; font-size: 12px; background-color: transparent; text-align: center;">
                                                                                                                     Gesellschaft
                                                                                                                     für
                                                                                                                     MPS
