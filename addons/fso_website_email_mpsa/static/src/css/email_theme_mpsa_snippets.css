@@ -138,7 +138,7 @@
 .mpsa_sb_bg_blue .flexibleContainerCell,
 .mpsa_sb_fg_blue .flexibleContainerCell .nestedContainerCell,
 .mpsa_sb_fg_blue .flexibleContainerCell .nestedContainerCell .textContent > p {
-    background-color: #0058B0;
+    background-color: #0E5389;
     color: white;
 }
 .mpsa_sb_bg_yellow .flexibleContainerCell,
@@ -565,7 +565,7 @@
 
 .snippet_block_text_twocol.mpsa_twocol_bg_left_blue .flexibleContainerLeft,
 .snippet_block_text_twocol.mpsa_twocol_bg_right_blue .flexibleContainerRight {
-    background-color: #0058B0;
+    background-color: #0E5389;
 }
 .snippet_block_text_twocol.mpsa_twocol_bg_left_blue .flexibleContainerLeft .textContent > h3,
 .snippet_block_text_twocol.mpsa_twocol_bg_left_blue .flexibleContainerLeft .textContent > h2,
