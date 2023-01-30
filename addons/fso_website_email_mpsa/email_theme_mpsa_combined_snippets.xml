@@ -30,7 +30,7 @@
                     </div>
                     <div id="combinedheadersnippetWebVersion" class="oe_snippet_body ckediting_disabled mpsa_bin">
                      <div class="snippet_block ckediting_enabled snippet_block_text_intro mpsa_sb_bg_background">
-                        <table class="centeringTable" cellpadding="0" cellspacing="0">
+                        <table id="mailtop" class="centeringTable" cellpadding="0" cellspacing="0">
                             <tbody>
                                 <tr>
                                     <td align="center" valign="top">
@@ -335,13 +335,25 @@
                                                                                                                 245 305
                                                                                                                 <br></br>
                                                                                                                 IBAN:
-                                                                                                                AT07
-                                                                                                                1860
-                                                                                                                0000
-                                                                                                                1700
-                                                                                                                5000 •
-                                                                                                                BIC:
-                                                                                                                VKBLAT2L
+                                                                                                                AT89 2011 1847 22581 7800 •
+                                                                                                                BIC: VKBLAT2L
+                                                                                                            </p>
+                                                                                                            <p>
+                                                                                                                <a href="mailto:office@mps-austria.at">
+                                                                                                                    <img src="/fso_website_email_mpsa/static/src/icons/mps-email.png" alt="Facebook" />
+                                                                                                                </a>
+                                                                                                                <a href="https://www.facebook.com/MPS.Austria/">
+                                                                                                                    <img src="/fso_website_email_mpsa/static/src/icons/mps-facebook.png" alt="Facebook" />
+                                                                                                                </a>
+                                                                                                                <a href="https://www.instagram.com/mps_austria/">
+                                                                                                                    <img src="/fso_website_email_mpsa/static/src/icons/mps-instagram.png" alt="Instagram" />
+                                                                                                                </a>
+                                                                                                                <a href="https://www.youtube.com/channel/UCI8ukrmwxbyuPBZ2Hpra4DA">
+                                                                                                                    <img src="/fso_website_email_mpsa/static/src/icons/mps-youtube.png" alt="YouTube" />
+                                                                                                                </a>
+                                                                                                            </p>
+                                                                                                            <p>
+                                                                                                                <a href="https://www.mps-austria.at/newsletter-abmeldung">Newsletter abbestellen</a>
                                                                                                             </p>
                                                                                                         </td>
                                                                                                     </tr>

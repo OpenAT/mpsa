@@ -21,6 +21,12 @@
 #footerend a {
     font-size: 12.8px;
 }
+
+#combinedsnippetfooter a {
+    color: #9a9898;
+    font-size: 12.8px;
+}
+
 /* .snippet_block_text_image_left */
 .snippet_block_text_image_left .flexibleContainerRight,
 .snippet_block_text_image_left .flexibleContainerRight .flexibleImage {
@@ -138,7 +144,7 @@
 .mpsa_sb_bg_blue .flexibleContainerCell,
 .mpsa_sb_fg_blue .flexibleContainerCell .nestedContainerCell,
 .mpsa_sb_fg_blue .flexibleContainerCell .nestedContainerCell .textContent > p {
-    background-color: #0E5389;
+    background-color: #3573A7;
     color: white;
 }
 .mpsa_sb_bg_yellow .flexibleContainerCell,
@@ -565,7 +571,7 @@
 
 .snippet_block_text_twocol.mpsa_twocol_bg_left_blue .flexibleContainerLeft,
 .snippet_block_text_twocol.mpsa_twocol_bg_right_blue .flexibleContainerRight {
-    background-color: #0E5389;
+    background-color: #3573A7;
 }
 .snippet_block_text_twocol.mpsa_twocol_bg_left_blue .flexibleContainerLeft .textContent > h3,
 .snippet_block_text_twocol.mpsa_twocol_bg_left_blue .flexibleContainerLeft .textContent > h2,
