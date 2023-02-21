@@ -97,14 +97,15 @@
                                                                                                    border="0"
                                                                                                    cellpadding="0"
                                                                                                    cellspacing="0"
-                                                                                                   class="flexibleContainerLeft">
+                                                                                                   class="flexibleContainerLeft"
+                                                                                                   style="width: 170px;">
                                                                                                 <tbody>
                                                                                                     <tr>
                                                                                                         <td align="left"
                                                                                                             class="imageContent ckediting_enabled"
                                                                                                             valign="top">
                                                                                                             <div class="mobilecenterpos">
-                                                                                                                <img class="headerlogo flexibleImage" style="width: 160px;"
+                                                                                                                <img class="headerlogo flexibleImage" style="width: 130px;"
                                                                                                                      src="/fso_website_email_mpsa/static/src/img/RZ_MPS_Austria_logo_weiss_96dpi.png"/>
                                                                                                             </div>
                                                                                                         </td>
@@ -117,20 +118,20 @@
                                                                                                    cellpadding="0"
                                                                                                    cellspacing="0"
                                                                                                    class="flexibleContainerRight"
-                                                                                                   style="width: 100%; max-width: 400px;">
+                                                                                                   style="width: 100%; max-width: 430px;">
                                                                                                 <tbody>
                                                                                                     <tr>
                                                                                                         <td class="textContent ckediting_enabled"
                                                                                                             valign="top"
-                                                                                                            style="padding-top: 70px; padding-left: 0px;">
-                                                                                                            <h3 style="font-size: 20px; color: #00538d;">
+                                                                                                            style="padding-top: 69px; padding-left: 0px;">
+                                                                                                            <h3 style="font-size: 22px; color: #00538d; padding-bottom: 2px; line-height: 100%;">
                                                                                                                 <![CDATA[Gesellschaft
                                                                                                                 f&uuml;r]]>
                                                                                                                 <span style="color: #e19f1f;">M</span>uko<span style="color: #e19f1f;">P</span>oly<span style="color: #e19f1f;">S</span>accharidosen
                                                                                                             </h3>
 
                                                                                                             <p>
-                                                                                                                <span style="color: #00538d; font-size: 12px; background-color: transparent; text-align: center;">
+                                                                                                                <span style="color: #00538d; font-size: 16px; background-color: transparent; text-align: center;">
                                                                                                                     <![CDATA[und
                                                                                                                     &auml;hnliche
                                                                                                                     Erkrankungen]]>
@@ -302,13 +303,13 @@
                                                                                                 <tbody>
                                                                                                     <tr>
                                                                                                         <td class="textContent ckediting_enabled"
-                                                                                                            valign="top">
-                                                                                                            <h5 style="font-size: 12px; color: #9a9898;">
+                                                                                                            valign="top" style="line-height: 120%;">
+                                                                                                            <h5 style="font-size: 12px; color: #00538d;">
                                                                                                                 <![CDATA[Gesellschaft f&uuml;r MukoPolySaccharidosen]]><br/>
                                                                                                                 <![CDATA[und &auml;hnliche Erkrankungen]]>
                                                                                                             </h5>
 
-                                                                                                            <p style="color: #9a9898;" class="mpsa_tiny">
+                                                                                                            <p style="color: #00538d;" class="mpsa_tiny">
                                                                                                                 Vorsitzende:
                                                                                                                 Michaela
                                                                                                                 Weigl
@@ -322,10 +323,10 @@
                                                                                                                 +43-7249-47795
                                                                                                                 <br></br>
                                                                                                                 Home:
-                                                                                                                www.mps-austria.at
+                                                                                                                <a href="https://www.mps-austria.at">www.mps-austria.at</a>
                                                                                                                 •
                                                                                                                 E-Mail:
-                                                                                                                office@mps-austria.at
+                                                                                                                <a href="mailto:office@mps-austria.at">office@mps-austria.at</a>
                                                                                                                 <br></br>
                                                                                                                 DVR
                                                                                                                 106 16
@@ -336,24 +337,27 @@
                                                                                                                 <br></br>
                                                                                                                 IBAN:
                                                                                                                 AT89 2011 1847 22581 7800 •
-                                                                                                                BIC: VKBLAT2L
+                                                                                                                BIC: GIBAATWWXXX
                                                                                                             </p>
                                                                                                             <p>
                                                                                                                 <a href="mailto:office@mps-austria.at">
                                                                                                                     <img src="/fso_website_email_mpsa/static/src/icons/mps-email.png" alt="Facebook" />
                                                                                                                 </a>
+                                                                                                                <![CDATA[&nbsp;]]>
                                                                                                                 <a href="https://www.facebook.com/MPS.Austria/">
                                                                                                                     <img src="/fso_website_email_mpsa/static/src/icons/mps-facebook.png" alt="Facebook" />
                                                                                                                 </a>
+                                                                                                                <![CDATA[&nbsp;]]>
                                                                                                                 <a href="https://www.instagram.com/mps_austria/">
                                                                                                                     <img src="/fso_website_email_mpsa/static/src/icons/mps-instagram.png" alt="Instagram" />
                                                                                                                 </a>
+                                                                                                                <![CDATA[&nbsp;]]>
                                                                                                                 <a href="https://www.youtube.com/channel/UCI8ukrmwxbyuPBZ2Hpra4DA">
                                                                                                                     <img src="/fso_website_email_mpsa/static/src/icons/mps-youtube.png" alt="YouTube" />
                                                                                                                 </a>
-                                                                                                            </p>
-                                                                                                            <p>
-                                                                                                                <a href="https://www.mps-austria.at/newsletter-abmeldung">Newsletter abbestellen</a>
+                                                                                                                <p style="padding-top: 8px;">
+                                                                                                                    <a href="https://www.mps-austria.at/newsletter-abmeldung">Newsletter abbestellen</a>
+                                                                                                                </p>
                                                                                                             </p>
                                                                                                         </td>
                                                                                                     </tr>
@@ -372,18 +376,18 @@
                                                                                                                 class="textContent ckediting_enabled"
                                                                                                                 style="text-align:right;"
                                                                                                                 valign="right">
-                                                                                                                <img alt="Spendenguetesiegel"
-                                                                                                                     class="flexibleImage siegel"
-                                                                                                                     src="/fso_website_email_mpsa/static/src/img/spendenguetesiegel.png"
-                                                                                                                     style="width: 104px; float: right; padding-bottom: 8px;"
-                                                                                                                     display="block"/>
-                                                                                                                <br></br>
-                                                                                                                <img alt="Spendenabsetzbarkeit"
-                                                                                                                     class="flexibleImage siegel"
-                                                                                                                     src="/fso_website_email_mpsa/static/src/img/spendenabsetzung.png"
-                                                                                                                     style="width: 104px; float: right;"
-                                                                                                                     display="block"/>
-                                                                                                            </td>
+                                                                                                            <img alt="Spendenabsetzbarkeit"
+                                                                                                                 class="flexibleImage siegel"
+                                                                                                                 src="/fso_website_email_mpsa/static/src/img/spendenabsetzung.png"
+                                                                                                                 style="width: 95px; float: unset; display: inline-block;"
+                                                                                                                 display="block"/>
+                                                                                                            <![CDATA[&nbsp;&nbsp;]]>
+                                                                                                            <img alt="Spendenguetesiegel"
+                                                                                                                 class="flexibleImage siegel"
+                                                                                                                 src="/fso_website_email_mpsa/static/src/img/spendenguetesiegel.png"
+                                                                                                                 style="width: 95px; padding-bottom: 8px; float: unset; display: inline-block;"
+                                                                                                                 display="block"/>
+                                                                                                         </td>
 <!--                                                                                                        <td align="left"
                                                                                                             class="imageContent ckediting_enabled"
                                                                                                             valign="top">
