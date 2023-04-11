@@ -80,9 +80,7 @@
 <!--                <link data-premailer="ignore" href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700;900&amp;display=swap" rel="stylesheet" type="text/css" t-ignore="true"/>
                 <link data-premailer="ignore" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&amp;display=swap" rel="stylesheet" type="text/css" t-ignore="true"/>
                 <link data-premailer="ignore" href='/fso_website_email_mpsa/static/src/css/custom_fonts_styles.css' rel='stylesheet' type='text/css' t-ignore="true"/>-->
-                        <link data-premailer="ignore" rel="preconnect" href="https://fonts.gstatic.com"/>
                         <link data-premailer="ignore" rel="preconnect" href="https://fonts.googleapis.com"/>
-                        <link data-premailer="ignore" rel="preconnect" href="https://fonts.gstatic.com"/>
                         <link data-premailer="ignore" href="https://fonts.googleapis.com/css2?family=Mukta+Mahee:wght@400;500;700&amp;display=swap" rel="stylesheet" type="text/css" t-ignore="true"/>
                 <meta name="format-detection" content="telephone=no"></meta>
 
