@@ -127,5 +127,15 @@
 
     </template>
 
+        <template id="survey_page_header" name="Survey Page Header" inherit_id="survey.page">
+            <xpath expr="//div[@class='page-header']" position="replace">
+                <div class="page-header">
+                    <p class="pull-right">Seite <span t-raw='page_nr + 1'/> von <span t-raw="len(survey.page_ids)"/></p>
+                    <h1 t-field='page.title' />
+                    <div t-field='page.description' class="oe_no_empty"/>
+                </div>
+            </xpath>
+        </template>
+
     </data>
 </openerp>

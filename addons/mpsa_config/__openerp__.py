@@ -23,6 +23,7 @@ Customer configuration for the instance mpsa
         'portal_sale',
         'website',
         'website_sale_donate',
+        'survey',
     ],
     'data': [
         'views/templates.xml',
